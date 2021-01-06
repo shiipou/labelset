@@ -14,5 +14,5 @@ npm install -g github-label-sync
 
 And apply labels with the following :
 ```bash
-ithub-label-sync --access-token <GITHUB_ACCESS_TOKEN> --labels ./labels.yml <GITHUB_ORG_NAME>/<GITHUB_REPO_NAME>
+github-label-sync --access-token <GITHUB_ACCESS_TOKEN> --labels ./labels.yml <GITHUB_ORG_NAME>/<GITHUB_REPO_NAME>
 ```
