@@ -3,14 +3,14 @@
   aliases:
     - bug
     - bugs
-    - type: bug
+    - "type: bug"
   description: "Something isn't working. Please fix it."
     
 - name: "type | bugfix"
   color: "e11d21"
   aliases:
     - bugfix
-    - type: bugfix
+    - "type: bugfix"
   description: "This PR fix the previous bug"
     
 - name: "type | maintenance"
