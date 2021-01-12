@@ -1,0 +1,158 @@
+- name: "In Progress"
+  color: "bfdadc"
+  description: "Someone is currently working on that task."
+
+- name: "Ready to review"
+  color: "bfdadc"
+  description: "This task need to be reviewed now. Can someone work on it ?"
+
+- name: "type | bug"
+  color: "d73a4a"
+  aliases:
+    - bug
+    - bugs
+    - "type: bug"
+  description: "Something isn't working. Please fix it."
+    
+- name: "type | bugfix"
+  color: "d93f0b"
+  aliases:
+    - bugfix
+    - "type: bugfix"
+  description: "This PR fix the previous bug"
+    
+- name: "type | maintenance"
+  color: "0052cc"
+  aliases:
+    - "type: maintenance"
+    - maintenance
+    - refactor
+    - testing
+    - test
+  description: "This is for the git or server maintenance."
+    
+- name: "type | feature"
+  color: "a2eeef"
+  aliases:
+    - "type: enhancement"
+    - enhancement
+    - enhancements
+    - feature
+    - features
+  description: "New feature or request to improve the project."
+    
+- name: "type | question"
+  color: "d876e3"
+  aliases:
+    - "type: question"
+    - question
+    - questions
+  description: "Further information is requested. Please, someone on the project can answer this ?"
+    
+- name: "type | documentation"
+  color: "0075ca"
+  aliases:
+    - "type: documentation"
+    - documentation
+    - documentations
+  description: "Improvements or additions to documentation. That will help anybody to work or to use the project."
+    
+- name: "type | design"
+  color: "eb6420"
+  aliases:
+    - "type: design"
+    - design
+    - designs
+  description: "You'll change the design specs (mock-ups, ...). So use this label."
+    
+- name: "type | poc"
+  color: "d4c5f9"
+  aliases:
+    - "type: poc"
+    - poc
+    - POC
+  description: "You have make a Proof of Concept before making a choice. You can try everything you want here."
+    
+- name: "priority | low"
+  color: "c5def5"
+  aliases:
+    - "priority: low"
+  description: "You can wait for that task, that not really important to fix it now."
+    
+- name: "priority | classic"
+  color: "2cc074"
+  aliases:
+    - "priority | medium"
+    - "priority: medium"
+    - "priority: classic"
+  description: "This need to be fix, but there are most important things to de before."
+    
+- name: "priority | high"
+  color: "e8a59e"
+  aliases:
+    - "priority: high"
+  description: "This task need to be fix now ! Go work now dumb dev !"
+    
+- name: "priority | critical"
+  color: "b60205"
+  aliases:
+    - "priority: critical"
+    - "priority: critic"
+    - "priority | critic"
+  description: "Ok let's anything else aside. You absolutly need to fix it because there is nothing that work well !"
+    
+- name: "status | breaking-change"
+  color: "e27c68"
+  aliases:
+    - "type: breaking"
+    - breaking
+    - "breaking-change"
+  description: "This Issue/PR make something incompatible with lower version."
+  
+- name: "type | unkown"
+  color: "7057ff"
+  aliases:
+    - "beginner-friendly"
+    - beginner
+    - unkown
+    - "good-starter-issue"
+    - "starter-issue"
+    - "status: good starter issue"
+    - "type: unkown"
+  description: "Good for newcomers. If you didn't know how to class your issue, then use this one someone will do it"
+    
+- name: "status | help wanted"
+  color: "008672"
+  aliases:
+    - "help wanted"
+    - "status: help wanted"
+  description: "Extra attention is needed. Can someone help the dev on that task ?"
+    
+- name: "status | invalid"
+  color: "e4e669"
+  aliases:
+    - "help wanted"
+    - "status: invalid"
+  description: "This doesn't seem right"
+    
+- name: "status | wontfix"
+  color: "cccccc"
+  aliases:
+    - wontfix
+    - "wont-fix"
+    - "status: wontfix"
+  description: "This will not be worked on. We did't agree or we can't make this task at all."
+    
+- name: "status | duplicate"
+  color: "cccccc"
+  aliases:
+    - "status: duplicate"
+    - duplicate
+  description: "This issue or pull request already exists"
+    
+- name: "status | blocked"
+  color: "990000"
+  aliases:
+    - "status: blocked" 
+    - blocked
+  description: "We need something from the team to work on this issue."
