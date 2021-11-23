@@ -1,25 +1,12 @@
-- name: "In Progress"
-  color: "bfdadc"
-  description: "Someone is currently working on that task."
-
-- name: "Ready to review"
-  color: "bfdadc"
-  description: "This task need to be reviewed now. Can someone work on it ?"
-
 - name: "type | bug"
   color: "d73a4a"
   aliases:
     - bug
     - bugs
-    - "type: bug"
-  description: "Something isn't working. Please fix it."
-    
-- name: "type | bugfix"
-  color: "d93f0b"
-  aliases:
     - bugfix
+    - "type: bug"
     - "type: bugfix"
-  description: "This PR fix the previous bug"
+  description: "Something isn't working. Please fix it."
     
 - name: "type | maintenance"
   color: "0052cc"
@@ -112,14 +99,9 @@
 - name: "type | unkown"
   color: "7057ff"
   aliases:
-    - "beginner-friendly"
-    - beginner
     - unkown
-    - "good-starter-issue"
-    - "starter-issue"
-    - "status: good starter issue"
     - "type: unkown"
-  description: "Good for newcomers. If you didn't know how to class your issue, then use this one someone will do it"
+  description: "If you didn't know how to class your issue, then use this one someone will do it"
     
 - name: "status | help wanted"
   color: "008672"
@@ -156,3 +138,10 @@
     - "status: blocked" 
     - blocked
   description: "We need something from the team to work on this issue."
+
+- name: "status | beginner-friendly"
+  color: "7057ff"
+  aliases:
+    - unkown
+    - "type: unkown"
+  description: "If you want to contribute, it's good to start with this issue to learn about the project."
