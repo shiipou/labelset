@@ -1,5 +1,5 @@
 - name: "type | bug"
-  color: "d73a4a"
+  color: "FF0000"
   aliases:
     - fix
     - bug
@@ -11,14 +11,14 @@
   description: "Something isn't working. Please fix it."
   
 - name: "type | build"
-  color: ""
+  color: "008080"
   aliases:
     - build
     - "type: build"
   description: "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)"
     
 - name: "type | ci"
-  color: ""
+  color: "00FFFF"
   aliases:
     - "type: maintenance"
     - maintenance
@@ -26,7 +26,7 @@
   description: "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)"
 
 - name: "type | refactor"
-  color: ""
+  color: "808080"
   aliases:
     - "type: refactor"
     - refactor
@@ -34,7 +34,7 @@
   description: "A code change that neither fixes a bug nor adds a feature"
     
 - name: "type | test"
-  color: ""
+  color: "00FF00"
   aliases:
     - "type: test"
     - tests
@@ -42,7 +42,7 @@
   description: "Adding missing tests or correcting existing tests"
     
 - name: "type | feature"
-  color: "a2eeef"
+  color: "008080"
   aliases:
     - "type: enhancement"
     - enhancement
@@ -52,7 +52,7 @@
   description: "New feature or request to improve the project."
   
 - name: "type | performance"
-  color: ""
+  color: "0000FF"
   aliases:
     - "type: performance"
     - performance
@@ -62,7 +62,7 @@
   description: "A code change that improves performance."
     
 - name: "type | question"
-  color: "d876e3"
+  color: "FF00FF"
   aliases:
     - "type: question"
     - question
@@ -70,7 +70,7 @@
   description: "Further information is requested. Please, someone on the project can answer this ?"
     
 - name: "type | docs"
-  color: "0075ca"
+  color: "000080"
   aliases:
     - "type: documentation"
     - "type | documentation"
@@ -80,7 +80,7 @@
   description: "Improvements or additions to documentation (README.md, comments, mockup, etc). That will help anybody to work or to use the project."
     
 - name: "type | style"
-  color: ""
+  color: "FFFFFF"
   aliases:
     - "type | design"
     - "type: design"
@@ -89,7 +89,7 @@
   description: "Changes that do not affect the meaning of the codes (white-space, formatting, missing semi-colons, etc)."
     
 - name: "type | poc"
-  color: "d4c5f9"
+  color: "C0C0C0"
   aliases:
     - "type: poc"
     - poc
@@ -97,19 +97,19 @@
   description: "You have make a Proof of Concept before making a choice. You can try everything you want here."
     
 - name: "priority | low"
-  color: "c5def5"
+  color: "008000"
   aliases:
     - "priority: low"
   description: "You can wait for that task, that not really important to fix it now."
     
 - name: "priority | high"
-  color: "e8a59e"
+  color: "FFFF00"
   aliases:
     - "priority: high"
   description: "This task need to be fix now ! Go work now dumb dev !"
     
 - name: "priority | critical"
-  color: "b60205"
+  color: "800000"
   aliases:
     - "priority: critical"
     - "priority: critic"
@@ -117,32 +117,41 @@
   description: "Ok let's anything else aside. You absolutly need to fix it because there is nothing that work well !"
     
 - name: "breaking-change"
-  color: "e27c68"
+  color: "FFFF00"
   aliases:
     - breaking
   description: "This Issue/PR make something incompatible with lower version."
   
 - name: "status | help wanted"
-  color: "008672"
+  color: "008080"
   aliases:
     - "help wanted"
     - "status: help wanted"
   description: "Extra attention is needed. Can someone help the dev on that task ?"
     
-- name: "status | invalid"
-  color: "e4e669"
-  aliases:
-    - "help wanted"
-    - "status: invalid"
-  description: "This doesn't seem right"
-    
 - name: "status | blocked"
-  color: "990000"
+  color: "800000"
   aliases:
-    - "status: blocked" 
+    - "status: blocked"
     - blocked
   description: "We need something from the team to work on this issue."
+  
+- name: "status | in review"
+  color: "008000"
+  aliases:
+    - "status: in review"
+    - "Ready to review"
+    - review
+  description: "This issue need to be reviewed."
+  
+- name: "status | paused"
+  color: "808080"
+  aliases:
+    - "status: paused"
+    - paused
+    - pause
+  description: "This issue is started by someone, but paused due to other task proprity."
 
 - name: "beginner-friendly"
-  color: "7057ff"
+  color: "800080"
   description: "If you want to contribute, it's good to start with this issue to learn about the project."
