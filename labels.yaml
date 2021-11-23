@@ -11,7 +11,7 @@
   description: "Something isn't working. Please fix it."
   
 - name: "type | build"
-  color: "008080"
+  color: "0000FF"
   aliases:
     - build
     - "type: build"
@@ -23,10 +23,10 @@
     - "type: maintenance"
     - maintenance
     - ci
-  description: "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)"
+  description: "Changes to our CI configuration files and scripts (example scopes: Travis, GitHub Workflow, etc)"
 
 - name: "type | refactor"
-  color: "808080"
+  color: "FFFFFF"
   aliases:
     - "type: refactor"
     - refactor
@@ -52,7 +52,7 @@
   description: "New feature or request to improve the project."
   
 - name: "type | performance"
-  color: "0000FF"
+  color: "FFFF00"
   aliases:
     - "type: performance"
     - performance
@@ -77,7 +77,7 @@
     - docs
     - documentation
     - documentations
-  description: "Improvements or additions to documentation (README.md, comments, mockup, etc). That will help anybody to work or to use the project."
+  description: "Improvements or additions to documentation (README.md, comments, mockup, etc)."
     
 - name: "type | style"
   color: "FFFFFF"
@@ -86,10 +86,10 @@
     - "type: design"
     - design
     - designs
-  description: "Changes that do not affect the meaning of the codes (white-space, formatting, missing semi-colons, etc)."
+  description: "Changes that do not affect the meaning of the codes (white-space, formatting, etc)."
     
 - name: "type | poc"
-  color: "C0C0C0"
+  color: "080808"
   aliases:
     - "type: poc"
     - poc
@@ -109,7 +109,7 @@
   description: "This task need to be fix now ! Go work now dumb dev !"
     
 - name: "priority | critical"
-  color: "800000"
+  color: "FF0000"
   aliases:
     - "priority: critical"
     - "priority: critic"
@@ -130,14 +130,14 @@
   description: "Extra attention is needed. Can someone help the dev on that task ?"
     
 - name: "status | blocked"
-  color: "800000"
+  color: "FF0000"
   aliases:
     - "status: blocked"
     - blocked
   description: "We need something from the team to work on this issue."
   
 - name: "status | in review"
-  color: "008000"
+  color: "C0C0C0"
   aliases:
     - "status: in review"
     - "Ready to review"
@@ -145,7 +145,7 @@
   description: "This issue need to be reviewed."
   
 - name: "status | paused"
-  color: "808080"
+  color: "080808"
   aliases:
     - "status: paused"
     - paused
